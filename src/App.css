@@ -1,0 +1,43 @@
+.App{
+    text-align: center;
+    width: 50%;
+    margin-top: 20%;
+    margin-left: 20%;
+    margin-bottom: 20%;
+    background-image: url('./floral.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: white; */
+}
+.Mybtn{
+    width: 100px;
+    height: 40px;
+    margin-top: 5px;
+    background-color: rgb(255, 234, 167);
+}
+.MyProfile {
+    width: 40%;
+    height: 50%;
+    margin-left: 60%;
+    /* background-color: rgb(253, 245, 228); */
+    background-image: url('./background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    text-align: center;
+    animation:2s loadingBefore ease-in;
+    animation-duration: 3s;
+
+  
+   
+}
+@keyframes loadingBefore {
+  0%   {transform:translateX(-50px);}
+  
+  100% {transform:translateX(0px);}
+}
+
+.MyProfile .Myimage{
+    width: 30%;
+    height: 25%;
+}
